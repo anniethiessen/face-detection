@@ -1,6 +1,6 @@
 import cv2 as cv
 
-original_image = cv.imread('~/Desktop/img4593_54.jpg')
+original_image = cv.imread('xmas2018.jpg')
 grayscale_image = cv.cvtColor(original_image, cv.COLOR_BGR2GRAY)
 
 face_cascade = cv.CascadeClassifier(
